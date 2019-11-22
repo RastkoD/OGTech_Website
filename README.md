@@ -1,5 +1,5 @@
 # OGTech - digital agency website 
-#### This is a responsive online website with GSAP and other stuff.
+#### This is a responsive website with GSAP and other stuff.
 
 ### :rocket: [DEMO](https://ogtech.netlify.com/)
 
