@@ -1,0 +1,358 @@
+.Phil_Intro {
+  width: 100%;
+  margin: 100px 0px;
+  margin-top: 120px;
+}
+
+.Phil_Intro-Wrap {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Phil_Intro-Header {
+  width: 60%;
+  font-size: 70px;
+  font-weight: 600;
+  letter-spacing: -3px;
+  opacity: 0;
+  transition: all 0.4s ease-in;
+}
+
+.Phil_Intro-Right {
+  width: 40%;
+  padding-left: 20px;
+  margin-top: 120px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 46px;
+  opacity: 0;
+  color: #f3f3f3;
+  transition: all 0.4s ease-in;
+}
+
+@media screen and (max-height: 700px) {
+  .Phil_Intro {
+    margin-top: 80px;
+  }
+  .Phil_Intro-Header {
+    font-size: 60px;
+  }
+}
+@media screen and (max-height: 600px) {
+  .Phil_Intro {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .Phil_Intro-Right {
+    font-size: 18px;
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .Phil_Intro-Wrap {
+    display: block;
+  }
+  .Phil_Intro-Header {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .Phil_Intro-Right {
+    margin-top: 0;
+    font-size: 28px;
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  .Phil_Intro-Header {
+    font-size: 50px;
+  }
+  .Phil_Intro-Right {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Phil_Intro {
+    margin-top: 60px;
+  }
+  .Phil_Intro-Header {
+    font-size: 40px;
+  }
+  .Phil_Intro-Right {
+    font-size: 16px;
+    line-height: 40px;
+  }
+}
+
+//Images -------- ---------- -------------
+.Phil_Images {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.Phil_Images-Wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Phil_Images-Left {
+  width: 49%;
+}
+
+.Phil_Images-Right {
+  width: 49%;
+}
+
+.Phil_Images-Image {
+  width: 100%;
+  box-shadow: 5px 5px 30px #1414142c;
+  opacity: 0;
+}
+
+.Phil-Image1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .Phil_Images-Wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Phil_Images-Right {
+    width: 80%;
+  }
+  .Phil_Images-Left {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+
+  .Phil-Image1 {
+    margin: 0;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .Phil-Image2 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .Phil_Images-Right {
+    width: 100%;
+  }
+  .Phil_Images-Left {
+    width: 100%;
+  }
+}
+
+//Cores --------- ---------- ---------
+.Phil_Cores {
+  width: 100%;
+  margin-top: 250px;
+  margin-bottom: 80px;
+}
+
+.Phil_Cores-Wrap {
+  width: 100%;
+  position: relative;
+}
+
+.Phil_Cores-Main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Phil_Cores-Main-NumberWrap {
+  width: 20%;
+}
+
+.Phil_Cores-Main-Number {
+  position: absolute;
+  font-size: 100px;
+  transition: all 0.4s ease-in;
+}
+
+.Phil_Number2 {
+  opacity: 0;
+}
+.Phil_Number3 {
+  opacity: 0;
+}
+
+.Phil_Cores-Main-Sections-Wrap {
+  width: 80%;
+}
+
+.Phil_Cores-Main-Section {
+  width: 100%;
+  position: relative;
+  margin-bottom: 180px;
+}
+.Phil_Cores-Main-Section:last-child {
+  margin-bottom: 0;
+}
+
+.Phil_Cores-Main-Section-Title {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  transition: all 0.4s ease-in;
+}
+
+.Phil_Cores-Main-Section-SubTitle {
+  font-size: 24px;
+  line-height: 42px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #f3f3f3;
+  transition: all 0.4s ease-in;
+}
+
+.Phil_Cores-Main-Section-Text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 46px;
+  color: #f3f3f3;
+  transition: all 0.4s ease-in;
+}
+
+.Phil_Cores-Mobile {
+  width: 100%;
+  display: none;
+}
+
+.Phil_Cores-Mobile-NumberWrap {
+  margin-bottom: 20px;
+}
+
+.Phil_Cores-Mobile-Number {
+  font-size: 50px;
+  transition: all 0.4s ease-in;
+}
+
+.Phil_Cores-Mobile-Sections-Wrap {
+  width: 100%;
+}
+
+.Phil_Cores-Mobile-Section {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.Phil_Cores-Mobile-Section:last-child {
+  margin-bottom: 0;
+}
+
+.Phil_Cores-Mobile-Number-Wrap {
+  padding-right: 20px;
+}
+
+.Phil_Cores-Mobile-Title-Wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Phil_Cores-Mobile-Section-Title {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  transition: all 0.4s ease-in;
+}
+
+.Phil_Cores-Mobile-Section-SubTitle {
+  font-size: 18px;
+  line-height: 42px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #f3f3f3;
+  transition: all 0.4s ease-in;
+}
+
+.Phil_Cores-Mobile-Section-Text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 46px;
+  color: #f3f3f3;
+  transition: all 0.4s ease-in;
+}
+
+@media screen and (max-height: 700px) {
+  .Phil_Cores {
+    margin-top: 150px;
+  }
+  .Phil_Cores-Main-Number {
+    font-size: 80px;
+  }
+  .Phil_Cores-Main-Section-Title {
+    font-size: 32px;
+    margin-top: 15px;
+  }
+  .Phil_Cores-Main-Section-SubTitle {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .Phil_Cores-Main-Section-Text {
+    font-size: 16px;
+  }
+
+  //Mobile
+  .Phil_Cores-Mobile-Number {
+    font-size: 32px;
+  }
+  .Phil_Cores-Mobile-Section-Title {
+    font-size: 28px;
+  }
+  .Phil_Cores-Mobile-Section-SubTitle {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .Phil_Cores-Mobile-Section-Text {
+    line-height: 28px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .Phil_Cores-Main-Number {
+    font-size: 60px;
+  }
+  .Phil_Cores-Main-Section-Title {
+    margin-top: 10px;
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Phil_Cores {
+    margin-top: 150px;
+  }
+  .Phil_Cores-Main {
+    display: none;
+  }
+  .Phil_Cores-Mobile {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Phil_Cores-Mobile-Number {
+    font-size: 28px;
+  }
+  .Phil_Cores-Mobile-Section-Title {
+    font-size: 24px;
+  }
+  .Phil_Cores-Mobile-Section-SubTitle {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .Phil_Cores-Mobile-Section-Text {
+    line-height: 28px;
+  }
+}

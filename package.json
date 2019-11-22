@@ -1,0 +1,22 @@
+{
+  "name": "ogtech",
+  "version": "1.0.0",
+  "description": "Oak Growth Technology Digital Agency Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "Rastko Dimitrijevic",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^2.1.3",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.12.0",
+    "parcel-bundler": "^1.12.4",
+    "scrollmagic": "^2.0.7"
+  },
+  "devDependencies": {
+    "shx": "^0.3.2"
+  }
+}
