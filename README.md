@@ -1,5 +1,6 @@
 # OGTech - digital agency website 
 #### This is a responsive website with GSAP and other stuff.
+##### Based on https://www.wolfwhale.com/
 
 ### :rocket: [DEMO](https://ogtech.netlify.com/)
 
