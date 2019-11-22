@@ -1,0 +1,36 @@
+.Hide {
+  display: none; }
+
+.Show {
+  display: block; }
+
+.ShowFlex {
+  display: flex; }
+
+.Fade-In {
+  opacity: 1; }
+
+.Fade-Out {
+  opacity: 0; }
+
+.Expand {
+  width: 100%; }
+
+.Collapse {
+  width: 0%; }
+
+.Slide-Right {
+  left: 100%; }
+
+.Slide-Left {
+  right: 100%; }
+
+.Slide-Up {
+  bottom: 0; }
+
+.Fade-In_Up {
+  opacity: 1;
+  transform: translateY(0); }
+
+
+/*# sourceMappingURL=/Animations.2f47abf4.css.map */

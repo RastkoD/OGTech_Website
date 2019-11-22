@@ -1,0 +1,204 @@
+.Work-Title {
+  font-size: 60px;
+  font-weight: 600;
+  margin: 50px 0px;
+  margin-top: 120px;
+  opacity: 0;
+  transition: all; }
+
+.Work_Projects {
+  width: 100%;
+  margin: 40px 0; }
+
+.Work_Projects-Wrap {
+  width: 100%;
+  position: relative; }
+
+.Work_Projects-Section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px; }
+
+.Work_Projects-Project {
+  width: 49%;
+  height: 35vw;
+  max-height: 750px;
+  padding: 40px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.6s ease-in; }
+
+.Project1 {
+  background-color: #1d1d1d; }
+
+.Project2 {
+  background-color: #e6e3db; }
+
+.Project3 {
+  background-color: #0a0729; }
+
+.Project4 {
+  background-color: #817848; }
+
+.Project5 {
+  background-color: #004745; }
+
+.Project6 {
+  background-color: #e6e3db; }
+
+.Project7 {
+  background-color: #042a51; }
+
+.NewClient {
+  background-color: #0700ff; }
+
+.Work_Projects-Project-Link {
+  width: 100%;
+  height: 100%; }
+
+.Work_Projects-Project-Wrap {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.Work_Projects-Project-Logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  white-space: nowrap;
+  color: #fff;
+  transition: all 0.4s ease-in; }
+
+.Work-Pax-Logo {
+  width: 70px; }
+
+.Work-MeetUp-Logo {
+  width: 90px; }
+
+.Work-Cape-Logo {
+  width: 90px; }
+
+.Work-Petrolicious-Logo {
+  width: 140px; }
+
+.Work-Extend-Logo {
+  width: 90px; }
+
+.Work-PatronofTheNew-Logo {
+  width: 90px; }
+
+.Work-Shortcut-Logo {
+  width: 110px; }
+
+.Work_Projects-Project-Arrow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px; }
+
+.Work-Projects-Project-ViewWork {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff; }
+
+.Work_Projects-Project-Description {
+  position: absolute;
+  color: #fff;
+  font-weight: 500;
+  top: 0;
+  left: calc(100%);
+  white-space: nowrap;
+  transform-origin: top left;
+  transform: rotate(90deg);
+  transition: all 0.4s ease; }
+
+.Work_Projects-Project-Phone {
+  width: 16vw;
+  max-width: 390px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  transition: opacity; }
+
+.Work-Projects-Project-Text {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 50px;
+  color: #fff;
+  font-family: vox, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  transition: font-size 0.4s ease-in; }
+
+.Color-Black {
+  color: #141414; }
+
+@media screen and (max-height: 700px) {
+  .Work-Title {
+    margin-top: 80px; } }
+
+@media screen and (max-height: 600px) {
+  .Work-Title {
+    margin-top: 60px; } }
+
+@media screen and (max-width: 1300px) {
+  .Work_Projects-Project {
+    padding: 30px; }
+  .Work-Pax-Logo {
+    width: 50px; }
+  .Work-MeetUp-Logo {
+    width: 70px; }
+  .Work-Cape-Logo {
+    width: 70px; }
+  .Work-Petrolicious-Logo {
+    width: 110px; }
+  .Work-Extend-Logo {
+    width: 70px; }
+  .Work-PatronofTheNew-Logo {
+    width: 70px; }
+  .Work-Shortcut-Logo {
+    width: 90px; } }
+
+@media screen and (max-width: 1000px) {
+  .Work_Projects-Project {
+    height: 45vw; }
+  .Work-Projects-Project-Text {
+    font-size: 32px; }
+  .Work-Projects-Project-ViewWork {
+    font-size: 14px; }
+  .Work_Projects-Project-Description {
+    font-size: 14px; } }
+
+@media screen and (max-width: 800px) {
+  .Work_Projects-Section {
+    flex-direction: column; }
+  .Work_Projects-Project {
+    width: 80%;
+    height: 55vw;
+    margin-bottom: 20px; }
+  .Work_Projects-Project-Phone {
+    width: 20vw; } }
+
+@media screen and (max-width: 500px) {
+  .Work-Title {
+    font-size: 50px;
+    margin-top: 40px; }
+  .Work_Projects-Project {
+    width: 100%;
+    height: 120vw;
+    margin-bottom: 40px; }
+  .Work_Projects-Project-Phone {
+    width: 50vw; } }
+
+
+/*# sourceMappingURL=/work.f69ae6fa.css.map */
