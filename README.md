@@ -11,3 +11,4 @@
  * [x] GSAP
  * [x] ScrollMagic
  * [x] UI/UX
+ * [ ] Update dependencies
