@@ -1,6 +1,5 @@
 # OGTech - digital agency website 
-#### This is a responsive website for a digital agency 
-##### Based on https://www.wolfwhale.com/ and https://www.weareimpero.com/
+#### This is a responsive website for a digital agency based on https://www.wolfwhale.com/ and https://www.weareimpero.com/
 
 ### :rocket: [DEMO](https://ogtech.netlify.com/)
 
