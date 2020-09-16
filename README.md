@@ -1,5 +1,5 @@
 # OGTech - digital agency website 
-#### This is a responsive website with GSAP and other stuff.
+#### This is a responsive website 
 ##### Based on https://www.wolfwhale.com/ and https://www.weareimpero.com/
 
 ### :rocket: [DEMO](https://ogtech.netlify.com/)
