@@ -11,4 +11,4 @@
  * [x] GSAP
  * [x] ScrollMagic
  * [x] UI/UX
- * [ ] Update dependencies(forge)
+ * [ ] Update dependencies(forge, parser)
