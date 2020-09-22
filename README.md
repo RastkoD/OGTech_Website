@@ -11,3 +11,4 @@
  * [x] ScrollMagic
  * [x] UI/UX
  * [ ] Update dependencies(forge, parser, sass)
+ * [ ] Fix loading screen(0-100)
