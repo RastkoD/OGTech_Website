@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "gsap": "^2.1.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "node-sass": "^4.12.0",
     "parcel-bundler": "^1.12.4",
     "scrollmagic": "^2.0.7"
